@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 import openai
-openai.api_key = "sk-proj-9HrVgLOYuMWGHoLrAeKKT3BlbkFJwIZxKP39l7AvoKyZygIA"
+openai.api_key = ""
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/LaBSE")
 
